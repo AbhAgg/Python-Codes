@@ -1,3 +1,2 @@
-# MyFirst
-My First Repo
-This is my first repo. A demo perhaps.
+# Python Codes
+This is the repository for all python codes.
