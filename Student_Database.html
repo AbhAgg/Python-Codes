@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Student Database
+	</title>
+</head>
+<body>
+<table border="1" width="400px">
+<form method="post" action="Student_Database.py" enctype="multipart/form-data">
+<tr> <th colspan="12" align="Center">Student Database </th></tr>
+<tr> <td colspan="6">Enter Roll Number</td>
+     <td colspan="6"> <input type="number" name="Roll_Num"       placeholder="Enter Roll Number"   maxlength="15"></td></tr>
+
+<tr> <td colspan="6">Enter Student Name</td>
+     <td colspan="6"> <input type="text"   name="Student_Name"   placeholder="Enter Student Name"  maxlength="15" pattern="[a-zA-Z]*"></td></tr>
+
+<tr> <td colspan="6">Enter Class</td>
+     <td colspan="6"> <input type="text"   name="Class"          placeholder="Enter Class"  maxlength="15" pattern="[a-zA-Z0-9]*"></td></tr>
+<tr> <td colspan="6">Math Marks</td>
+     <td colspan="6"> <input type="number" name="Math_Marks"     placeholder="Enter Math Marks"     maxlength="15" ></td></tr>
+<tr> <td colspan="6">English Marks</td>
+     <td colspan="6"> <input type="number" name="English_Marks"  placeholder="Enter English Marks"  maxlength="15" ></td></tr>
+<tr> <td colspan="6">Punjabi Marks</td>
+     <td colspan="6"> <input type="number" name="Punjabi_Marks"  placeholder="Enter Punjabi Marks"  maxlength="15" ></td></tr>
+<tr> <td colspan="6">Hindi Marks</td>
+     <td colspan="6"> <input type="number" name="Hindi_Marks"    placeholder="Enter Hindi Marks"    maxlength="15" ></td></tr>
+
+
+<tr>  <td colspan="3"><input type="submit" value="SUBMIT" name="SUBMIT">
+      <td colspan="3"><input type="submit" value="DELETE" name="DELETE">
+      <td colspan="3"><input type="submit" value="EDIT"   name="EDIT">
+      <td colspan="3"><input type="submit" value="SEARCH" name="SEARCH"> </td>
+
+
+</form>
+</body>
+</table>
+</html>
